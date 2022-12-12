@@ -1,0 +1,301 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 50%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      </style>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>Budget Buddies</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
+    <!-- =======================================================
+    * Template Name: Gp - v4.9.1
+    * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+  </head>
+  <style>
+     .sr-label {
+    font-weight: 700;
+    position: relative;
+    padding: .5em 1em;
+    margin-bottom: .5em;
+    display: block;
+    cursor: pointer;
+    background-color: whiteSmoke;
+    border-radius: 6px;
+    transition: background-color .15s ease-in-out;
+  }
+
+  .sr-input:checked+label,
+  .sr-label:hover {
+    background-color: #999;
+  }
+
+  .sr-label:after,
+  .sr-input:checked+.sr-label:after {
+    content: "+";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 100%;
+    line-height: 2.25em;
+    text-align: center;
+    background-color: #e5e5e5;
+    transition: background-color .15s ease-in-out;
+  }
+
+  .sr-label:hover:after,
+  .sr-input:checked+.sr-label:after {
+    background-color: #b5b5b5;
+  }
+
+  .sr-input:checked+.sr-label:after {
+    content: "-";
+  }
+
+  .sr-input {
+    display: none;
+  }
+
+  .sr-text,
+  .sr-sub-text {
+    opacity: 0;
+    height: 0;
+    margin-bottom: .5em;
+    transition: opacity .5s ease-in-out;
+    overflow: hidden;
+  }
+
+  .sr-input:checked~.sr-text,
+  .sr-sub .sr-input:checked~.sr-sub-text {
+    opacity: 1;
+    height: auto;
+  }
+
+  .sr-sub .sr-label {
+    background: none;
+    font-weight: 600;
+    padding: .5em 2em;
+    margin-bottom: 0;
+  }
+
+  .sr-sub .sr-label:checked {
+    background: none;
+    border-bottom: 1px solid whitesmoke;
+  }
+
+  .sr-sub .sr-label:after,
+  .sr-sub .sr-input:checked+.sr-label:after {
+    left: 0;
+    background: none;
+  }
+
+  .sr-sub .sr-input:checked+label,
+  .sr-sub .sr-label:hover {
+    background: none;
+  }
+
+  .sr-sub-text {
+    padding: 0 1em 0 2em;
+  }
+
+  </style>
+  <body>
+  
+    <main id="main">
+  
+      <!-- ======= Breadcrumbs ======= -->
+      <section id="breadcrumbs" class="breadcrumbs">
+        <div class="container">
+  
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>First Quarter</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li>Portfolio Details</li>
+            </ol>
+          </div>
+
+        </div>
+      </section><!-- End Breadcrumbs -->
+  
+      <!-- ======= Portfolio Details Section ======= -->
+      <section id="portfolio-details" class="portfolio-details">
+        <div class="container">
+  
+          <div class="row gy-4;">
+            <h2>Analyzing Our Viewers</h2>
+            <p class="item-intro text-muted" style="font-size:large">Now that you already have an idea, here are the results of the survey we conducted.</p>
+            <img class="img-responsive img-centered" src="https://i.postimg.cc/xd6qSRGL/analysis.png" alt="">
+            <hr style="color:white;">
+            <div class="container">
+                <p style="font-size:17px">After identifying our reearch topic and creating a methodology on how we plan to study this, we chose three content types that would best fit our topic, and these are: Eucational Videos, On-demand Audio Podcast, and Educational Live Stream. Once we're done choosing, we proceeded on conducting the survey. Below are the results of our respondents choice between our three chosen content types.</p>
+                <div class="progress" style="background-color:#345E7D; color:white;">
+                  <div class="progress-bar progress-bar" background-color="#345E7D" color="white" role="progressbar" aria-valuenow="9.3" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                    9.3% (Educational Live Streams)
+                  </div>
+                </div>
+                <div class="progress" style="background-color:#345E7D; color:white;">
+                  <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="15.1" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                    15.1% (On-demand Audio Podcasts)
+                  </div>
+                </div>
+                <div class="progress" style="background-color:#345e7d; color:white;">
+                  <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="75.6%" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    75.6% (Educational Videos)
+                  </div>
+                </div>
+              </div>
+      <p style="font-size:17px">Additionally, Through conducting a survey, our team was able to  gather and analyze the <b><a href="https://docs.google.com/document/d/1RCnbPtrCjmqss-j8bxyczirAf_kWYXrdhYIN78LqwZo/edit?usp=sharing">demographic data</a></b> of our target viewers, which is them. By doing this, our team was able to properly comprehend and analyze our chosent content types of streaming that are seen by different types of people; the respondents to our survey, and identify their needs (can be seen in the next project/document).</p>
+      <h4><b>Beliefs and Opinions on the topic</b></h4>
+      <li style="font-size:17px">60.5% of respondents are familiar with the term financial literacy.</li>
+            <li style="font-size:17px">48.8% of respondents currently have an allowance or any form of income.</li>
+            <li style="font-size:17px">The familiarity of the respondents in each term can be seen below:</li>
+      <div class="sr-sub" style="font-size:130%">
+        <input class="sr-input" id="sr-2" name="sr-2" type="checkbox" />
+        <label class="sr-label" for="sr-2" onclick="play()">Click me</label>
+        <article class="sr-sub-text" style="font-size:16px">
+                <li>95.3% of respondents are familiar with the term “budgeting”</li>
+           <li>94.2% of respondents are familiar with the term “investment”</li>
+           <li>89.5% of respondents are familiar with the term “income”</li>
+           <li>82.6% of respondents are familiar with the term “business”</li>
+           <li>45.3% of respondents are familiar with the term “stock market”</li>
+           <li>45.3% of respondents are familiar with the term “asset”</li>
+           <li>34.9% of respondents are familiar with the term “liability”</li>
+           <li>41.9% of respondents are familiar with the term “digital currency”</li>
+           <li>32.6% of respondents are familiar with the term “passive income”, and</li>
+           <li>68.6% of the respondents are familiar with the term “credit”</li></li>
+            </article>
+        </div>
+            <li style="font-size:17px">Other beliefs and opinions of the respondents in financial literacy can be seen below:</li>
+                <div class="sr-sub" style="font-size:130%">
+                    <input class="sr-input" id="sr-4" name="sr-4" type="checkbox" />
+                    <label class="sr-label" for="sr-4" onclick="play()">Click me</label>
+                    <article class="sr-sub-text" style="font-size:16px">
+                <li>83.7% of respondents think that financial literacy will help them learn how to manage their money effectively.  </li>
+          <li>87.2% of respondents think that financial literacy will help them gain a better understanding on how to save, earn, and properly budget their money.  </li>
+          <li>69.8% of respondents think that financial literacy will help them learn about financial terms which will broaden their understanding of the financial world.  </li>
+          <li>57% of respondents think that financial literacy could make them motivated  to become entrepreneurs through unique ideas and insights, and</li>
+          <li>8.1% of respondents think that financial literacy will drain the students’ energy and will have no positive effects or whatsoever.</li>
+            </li>
+        </article>
+      </div>
+     <h4><b>Attitude on the topic</b></h4>
+     <div class="sr-sub" style="font-size:130%">
+                    <input class="sr-input" id="sr-3" name="sr-3" type="checkbox" />
+                    <label class="sr-label" for="sr-3" onclick="play()">Click me</label>
+                    <article class="sr-sub-text" style="font-size:16px">
+                        <li>15.1% of the respondents are not aware at all or knowledgeable about financial literacy as they rated it 1; 20.9% are not so aware as they rated it 2; 43% of them have enough knowledge about financial literacy as they rated it 3; 16.3% rated it 4 which means they are quite or almost fully aware; and 4.7% of the respondents are fully aware about financial literacy since they rated it 5.</li>
+                        <li>50% of the respondents are always budgeting their allowance and/or income; 11.6% do not budget at all their allowance or any form of income; and another 38.4% of the respondents who simply don’t have any allowance or form of income.</li>
+                        <li>2.3% of the respondents believe that learning financial literacy is not important at all for students as they rated it 1; 1.2% of the respondents believed that the importance of it is only 2 out of 5; 18.6% of them believe that it is and is not important for students as they rated it 3; 26.7% as 4 which is somehow really important for students; and 51.2% of the respondents believe that learning financial literacy is very important for students.</li> 
+                            <li>Many of the respondents would like to learn more about the stock market, spending, budgeting, passive income, avoiding scams, investments, how to start a business even if you’re only a student, etc., which will help them gain information related to business and financial management as most of the respondents believe that the knowledge of financial<br>literacy will help them plan for their future and define their life goals.</li> 
+        </article>
+    </div>
+
+    <p style="font-size:17px">In conclusion of our survey, our streaming type would be Educational Videos about Financial Literacy and will be uploaded using the streaming platforms, Facebook and YouTube.</p> 
+    <hr>
+    <h4><b>Needs Analysis of Viewers</b></h4>
+    <hr style="color:white">
+    <div class="row; img-responsive;">
+      <div class="column">
+        <img src="https://i.postimg.cc/QtWKDzXv/mindmap.png" alt="Mindmap" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="https://i.postimg.cc/0yF8vyb2/5-whys.png" alt="5 Whys" style="width:100%;">
+      </div>
+      </div>
+    </div>
+    <hr style="color:white">
+    <p style="font-size:17px">This is one of the most important parts if you want to become a streamer; you need to identify your viewers needs in your content type and content or topic itself. As for our group, we used 2 different techniques from "design thinking: emphatize stage" to identify their needs. By using the first method, 5 whys, we identified the root cause of lack of financial literacy to students; which is the lack of teachers and experts who are able to teach financial literacy. Additionally, our team conducted a survey (also used in getting the demographics of viewers part) and 76 people preferred watching educational videos, compared to on-demand podcasts and educational live streams, on the topic of Financial Literacy. Within this survey, we applied the Design Thinking Process through empathizing with our participants by asking them what qualities they look for in a successful educational video; or the aspects needed to make an educational video strong and truly informative (Conducting Interviews with Empathy).</p>
+    <p style="font-size:17px">With this, our team identified that the viewers needs to see quality information, interesting topics, clear voice-overs, simple translations of the topic, and the video appearance of the speaker. The other aspects will also be present, but not as prioritized due to the number of participants who decided to include them in their choice. In addition to this are:</p>      <ul>
+<li style="font-size:17px">The audience needs useful, valuable, and relevant information.</li>
+<li style="font-size:17px">The audience needs simple explanations or translations of the topic.</li>
+<li style="font-size:17px">The audience needs captivating material.</li>
+<li style="font-size:17px">The audience needs clear and understandable voiceovers.</li>
+<li style="font-size:17px">The audience needs to know the importance of Financial Literacy.</li>
+<li style="font-size:17px">The audience needs to understand various financial terms.</li>
+<li style="font-size:17px">The audience needs to know how to save, budget, and manage their money effectively.</li>
+</ul>
+  </div>
+      </section><!-- End Portfolio Details Section -->
+  
+    </main><!-- End #main -->
+  
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Budget Buddies</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  </body>
+  
+  </html>
