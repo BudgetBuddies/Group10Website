@@ -25,10 +25,21 @@
   display: table;
 }
 
-table, th, td {
-  border: 1px solid black;
+table {
   border-collapse: collapse;
+  width: 100%;
 }
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
      </style>
   <head>
     <meta charset="utf-8">
@@ -131,7 +142,6 @@ table, th, td {
           <th style="text-align:center">Time Allotment (mins)</th>
           <th style="text-align:center">Screen</th>
           <th style="text-align:center">Audio</th>
-          
         </tr>
         <tr>
           <td>0:00:00 - 0:15:00</td>
