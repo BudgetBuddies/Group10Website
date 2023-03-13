@@ -10,6 +10,11 @@ body {
   color: white;
 }
 
+p {
+    line-height: 1.8;
+    text-align: justify;
+  }
+
 a {
   color: #75D481;
   text-decoration: none;
@@ -1609,7 +1614,7 @@ section {
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-      <img src="assets/img/Enhanced Green Budget Buddies Logo.png" style="float:left; width:60px; height:50px;" margin-left:50px;>
+      <img src="assets/img/Enhanced Green Budget Buddies Logo.png" style="float:left; position:sticky; width:60px; height:50px;" margin-left:50px;>
       <h1 class="logo me-auto me-lg-0"><a href="index.html">Budget Buddies<span></span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/Enhanced Green Budget Buddies Logo.png" alt="" class="img-fluid"></a>-->
@@ -1617,42 +1622,39 @@ section {
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-          <li class="dropdown"><a href="#web" class="nav-link scrollto"><span>Our Content</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href=""><span>Our Content</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#web">Content Introduction</a></li>
               <li><a class="nav-link scrollto" href="#services">Stream Introduction</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
               <li><a class="nav-link scrollto" href="#testimonials">FAQ</a></li>
-                </ul>
-              </li>
-            </li>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-          <li class="dropdown"><a  href="#services" class="nav-link scrollto"><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
+            </ul>
+          </li>
+          <li class="dropdown"><a href=""><span>About Us</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="nav-link scrollto" href="#services">Group Introduction</a></li>
+              <li><a class="nav-link scrollto" href="#about">Group Introduction</a></li>
               <li><a class="nav-link scrollto" href="#team">Team Members</a></li>
-                </ul>
-              </li>
-            </li>
-            <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-            <li class="dropdown"><a href="#portfolio" class="nav-link scrollto"><span>Our Events</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#promote">Promotional Materials</a></li>
-                <li><a class="nav-link scrollto" href="#counts">Stream Count</a></li>
-                  </ul>
-                </li>
-              </li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+          <li class="dropdown"><a href=""><span>Our Events</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="#promote">Stream Materials</a></li>
+              <li><a class="nav-link scrollto" href="#counts">Stream Count</a></li>
+            </ul>
+          </li>
+        </ul>
+  
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#services" class="get-started-btn scrollto">Get Started</a>
+      <a href="#web" class="get-started-btn scrollto">Get Started</a>
 
     </div>
   </header><!-- End Header -->
 
+
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center">
+  <section id="hero" class="d-flex align-items-center justify-content-center"  style="background-image: url(assets/img/header.avif);">
     <div class="container" data-aos="fade-up">
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
@@ -1694,24 +1696,18 @@ section {
 
   <main id="main">
 
+
    <!-- ======= Web Section ======= -->
    <section id="web" class="web" style="background-color:#345e7d; color:white;">
     <div class="container" data-aos="zoom-in">
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/introduction.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <br><br>
-          <h1 text-align="center"><b>Content Introduction</b></h1>
-          <hr style="color:#74d581">
-          <p>
-            Hello! Welcome to our website. We are Budget Buddies. A group whose content is <i>Financial Literacy.</i></p>
-          <p>
-            Financial literacy is the ability to understand and effectively use various financial skills, including personal financial management, budgeting, and investing.  Financial literacy is the foundation of one’s relationship with money. It allows an individual to be self-sufficient in the monetary world.
-          </p>
-
+      <h2><b style="font-size:x-large;">New: Budget Buddies First Live!</b>
+        <iframe src="https://www.youtube.com/embed/jQELwZM3fhI" style="float: right;"width="500" height="300" allow="autoplay" allowfullscreen="yes"></iframe>
+       </h2> <hr style="color:#75D481; border: 1.5px solid; width: 50%;">
+         The much-awaited financial literacy is here! Let's talk about money and learn all about budgeting, investing, and so much more.
+     <br> <br>Available on both <b><a href="https://www.youtube.com/embed/jQELwZM3fhI">YouTube</a></b> and <b><a href="https://fb.watch/jeSl45wG5z/">Facebook</a></b>.</p><br>
+      <a href="#services" class="get-started-btn scrollto">Learn More <b style="color:#345E7D">.</b><i class="bi bi-arrow-down"></i></a>
+      
     </div>
   </section><!-- End web Section -->
 
@@ -1757,7 +1753,7 @@ section {
     </section><!-- End Services Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
+      <section id="testimonials" class="testimonials"  style="background-image: url(assets/img/faq.avif);">
         <div class="container" data-aos="zoom-in">
   
           <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1888,7 +1884,7 @@ section {
                     <a href="https://contacts.google.com/ap.xianiverson.tan@apecschools.edu.ph"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
-                <div class="member-info">
+                <div class="member-info" style="text-align:center">
                   <h4>Xian Iverson</h4>
                   <span>Team Leader</span>
                 </div>
@@ -1903,7 +1899,7 @@ section {
                     <a href="https://contacts.google.com/ap.casseyann.villapando@apecschools.edu.ph"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
-                <div class="member-info">
+                <div class="member-info" style="text-align:center">
                   <h4>Cassey Ann</h4>
                   <span>Technical</span>
                 </div>
@@ -1918,7 +1914,7 @@ section {
                     <a href="https://contacts.google.com/ap.annegieliane.ora@apecschools.edu.ph"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
-                <div class="member-info">
+                <div class="member-info" style="text-align:center">
                   <h4>Anne Gieliane</h4>
                   <span>Organizer</span>
                 </div>
@@ -1933,7 +1929,7 @@ section {
                     <a href="https://contacts.google.com/ap.jilliane.quisada@apecschools.edu.ph"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
-                <div class="member-info">
+                <div class="member-info" style="text-align:center">
                   <h4>Jilliane</h4>
                   <span>Organizer</span>
                 </div>
@@ -1949,7 +1945,7 @@ section {
                     <a href="https://contacts.google.com/ap.meyer.visser@apecschools.edu.ph"><i class="bi bi-envelope"></i></a>
                   </div>
                 </div>
-                <div class="member-info">
+                <div class="member-info" style="text-align:center">
                   <h4>Meyer</h4>
                   <span>Organizer</span>
                 </div>
@@ -1976,6 +1972,7 @@ section {
               <li style=color:white; data-filter="*" class="filter-active">All</li>
               <li style=color:white; data-filter=".filter-app">1st Quarter</li>
               <li style=color:white; data-filter=".filter-card">2nd Quarter</li>
+              <li style=color:white; data-filter=".filter-web">3rd Quarter</li>
             </ul>
           </div>
         </div>
@@ -1986,10 +1983,8 @@ section {
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/port-1.png" class="img-fluid" alt="methodology">
               <div class="portfolio-info">
-                <h4>Stream & Research Methodology</h4>
+                  <h4><a href="portfolio-details.html" title="Methodology"><button class="btn"><img src="assets/img/portfolio/port-1.png"></button></a></h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/port-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Introduction: Where it all started"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Methodology"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -1999,11 +1994,9 @@ section {
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/port-2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Analyzing Our Viewers</h4>
+                <h4><a href="protfolio-details2.html" title="Analyzing Our Viewers"><button class="btn"><img src="assets/img/portfolio/port-2.png"></button></a></h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/port-2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Who are our target audience?"><i class="bx bx-plus"></i></a>
-                  <a href="protfolio-details2.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+                 </div>
               </div>
             </div>
           </div>
@@ -2012,10 +2005,8 @@ section {
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/port-4.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Streaming Content and Tools</h4>
+                <h4><a href="portfolio-details3.html" title="Content and Tools"><button class="btn"><img src="assets/img/portfolio/port-4.png"></button></a></h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/port-4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="What is our content and what should we use?"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details3.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -2025,124 +2016,59 @@ section {
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/port-6.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Stream Design & Planning</h4>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/port-6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="How should we organize and plan our stream?"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details4.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+                <h4><a href="portfolio-details4.html" title="Design and Plan"><button class="btn"><img src="assets/img/portfolio/port-6.png"></button></a></h4>
+                <div class="portfolio-links"></div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/port-7.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/port-5.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>List of References</h4>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/port-7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Where our information from/based?"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details5.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
+                <h4><a href="portfolio-details6.html" title="LiveStream Preparation"><button class="btn"><img src="assets/img/portfolio/port-5.png"></button></a></h4>
+                <div class="portfolio-links"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/port-3.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details7.html" title="Stream Analytics"><button class="btn"><img src="assets/img/portfolio/port-3.png"></button></a></h4>
+                <div class="portfolio-links"></div>
               </div>
             </div>
           </div>
 
         </div>
+
+       <center><button type="button" style="border-color: white;"><a href="portfolio-details5.html" style="color:black"><b>List of References</b></a></button></center> 
 
       </div>
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Promotional Materials Section ======= -->
-    <section id="promote" class="portfolio" style="background-color: black; color:white;">
+    <section id="promote" class="portfolio" style="background-image: url(assets/img/bg-1.png); background-size:cover; background-repeat:no-repeat; color:white;">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2 style="color:white;">Stream Promotion</h2>
-          <p style="color:white;">Our Promotional Materials and Design</p>
+          <h2 style="color:white;">Stream Materials</h2>
         </div>
 
-        <div class="container">
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (430).png" style="width:100%">
-          </div>
-        
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (431).png" style="width:100%">
-          </div>
-        
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (432).png" style="width:100%">
-          </div>
-            
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (433).png" style="width:100%">
-          </div>
-        
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (434).png" style="width:100%">
-          </div>
-            
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (435).png" style="width:100%">
-          </div>
+<center><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSo6QEw7UIAZkJoy00LrYpJSLVB7Rziy54hmK42rcOMxkBggG4hoHq-HWU21ZsA2nudB-Q3VcO0mbjm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center>
 
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (436).png" style="width:100%">
-          </div>
-            
-          <div class="mySlides">
-            <div class="numbertext"></div>
-            <img src="assets/img/Screenshot (437).png" style="width:100%">
-          </div>
-            
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-        
-          <div class="caption-container">
-            <p id="caption"></p>
-          </div>
-        
-          <div class="row">
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (430).png" style="width:100%" onclick="currentSlide(1)" alt="">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (431).png" style="width:100%" onclick="currentSlide(2)" alt="">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (432).png" style="width:100%" onclick="currentSlide(3)" alt="">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (433).png" style="width:100%" onclick="currentSlide(4)" alt="">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (434).png" style="width:100%" onclick="currentSlide(5)" alt="">
-            </div>    
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (435).png" style="width:100%" onclick="currentSlide(6)" alt="">
-            </div>
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (436).png" style="width:100%" onclick="currentSlide(7)" alt="">
-            </div>    
-            <div class="column">
-              <img class="demo cursor" src="assets/img/Screenshot (437).png" style="width:100%" onclick="currentSlide(8)" alt="">
-            </div>
-          </div>
-        </div>
+<div class="text-center text-lg-start"><center>
+  <a href="promotional.html" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+    <i class="bi bi-arrow-right"></i>
+    <b><span>See promotional materials folder here</span></b>
+    <i class="bi bi-arrow-left"></i></center>
+  </a>
+</div>
 
-        <hr style="background-color: #151515;">
-        
-<img src="assets/img/Screenshot (425).jpg" width="100%">
-        
-      </div>
-    </section><!-- End Promotional Materials Section -->
+
+</section><!-- End Promotional Materials Section -->
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts" style="background-color:#345E7D; color:white;">
@@ -2159,7 +2085,7 @@ Below is the community that we have accumulated over time accross our social-med
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-hand-thumbs-up"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="1100" data-purecounter-duration="3" class="purecounter" style="color:white;"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="2918" data-purecounter-duration="4" class="purecounter" style="color:white;"></span>
                     <p style="color:white;"><strong>Facebook Impressions</strong></p>
                   </div>
                 </div>
@@ -2167,7 +2093,7 @@ Below is the community that we have accumulated over time accross our social-med
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-share"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="445" data-purecounter-duration="3" class="purecounter" style="color:white;"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="669" data-purecounter-duration="4" class="purecounter" style="color:white;"></span>
                     <p style="color:white;"><strong>People Reached on Facebook</strong></p>
                   </div>
                 </div>
@@ -2175,7 +2101,7 @@ Below is the community that we have accumulated over time accross our social-med
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-star"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="37" data-purecounter-duration="4" class="purecounter" style="color:white;"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="68" data-purecounter-duration="4" class="purecounter" style="color:white;"></span>
                     <p style="color:white;"><strong>Facebook Followers</strong></p>
                   </div>
                 </div>
@@ -2183,7 +2109,7 @@ Below is the community that we have accumulated over time accross our social-med
                 <div class="col-md-6 d-md-flex align-items-md-stretch">
                   <div class="count-box">
                     <i class="bi bi-bell"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="4" class="purecounter" style="color:white;"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="4" class="purecounter" style="color:white;"></span>
                     <p style="color:white;"><strong>YouTube Subscribers</strong></p>
                   </div>
                 </div>
